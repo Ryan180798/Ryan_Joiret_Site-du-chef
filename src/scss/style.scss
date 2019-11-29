@@ -1,0 +1,149 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+body{
+    margin: 0;
+
+header{
+    width: 100%;
+    height: 100px;
+}
+
+nav{
+    z-index: 1;
+}
+
+.li-nav{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.li-nav:hover{
+    background: red;
+}
+
+.nav-link{
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+
+.imgnav{
+    width: 6%;
+    height: 6%;
+}
+
+
+.carou{
+    top: 0;
+
+    .d-block{
+        filter: brightness(50%);
+        height: 100vh;
+    }
+
+    .carousel-indicators li{
+        width: 1em;
+        height: 1em;
+        border-radius:100%;
+    }
+
+    .carousel-indicators .active{
+        width: 0.5em;
+        height: 0.5em;
+        border: double 6px white;
+        margin-top: 8px;
+    }
+
+
+.carousel-caption{
+    top: 22%;
+    bottom: auto;
+}
+}
+}
+
+.what{
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+
+.bigtaste{
+    font-size: 40px;
+    font-family: 'Courgette', cursive;
+}
+.occasion{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.taste{
+    text-transform: uppercase;
+    color: red;
+    font-size: 50px;
+}
+
+.make{
+    font-size: 65px;
+}
+
+.remember{
+    font-size: 60px;
+}
+
+
+
+
+.btnt{
+    margin-top: 70px;
+    height: 40px;
+    width: 360px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: sans-serif;
+}
+.bt1{
+    background: white;
+    height: 30px;
+    width: 180px;
+    font-size: 12px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 30px;
+}
+
+.bt2{
+    background: red;
+    height: 30px;
+    width: 160px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: white;
+    border: none;
+    border-radius: 30px;
+}
+
+
+
+.croc{
+    position: absolute;
+    background: url(../../chef/images/bottom_decoration_img.png);
+    width: 100%;
+    height: 15px;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.section1{
+    background: url(../../chef/images/);
+    width: 100%;
+    height: 200px;
+}
