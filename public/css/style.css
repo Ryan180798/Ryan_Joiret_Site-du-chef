@@ -10999,8 +10999,10 @@ body .carou .carousel-caption {
 }
 
 .bash {
-  width: 300px;
-  height: 20px;
+  width: 500px;
+  height: 13px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .bash3 {
@@ -11351,5 +11353,115 @@ body .carou .carousel-caption {
 
 .loremoo {
   color: red;
+}
+
+.section5 {
+  background: url(../../chef/images/main_bg.jpg);
+  width: 100%;
+  height: 700px;
+}
+
+.croc2 {
+  position: relative;
+  background: url(../../chef/images/footer_bottom_decoration_img.png);
+  width: 100%;
+  height: 15px;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
+
+.contout {
+  position: relative;
+  background: red;
+  width: 35%;
+  height: 60%;
+  text-align: center;
+  top: 25%;
+  left: 50%;
+  margin-left: -17.5%;
+  border-radius: 15px;
+}
+
+.pt1, .pt2 {
+  color: white;
+  font-size: 15px;
+  margin: 20px;
+}
+
+.pt1 {
+  border-bottom: 2px solid white;
+}
+
+.reprendtout {
+  position: relative;
+  height: 70%;
+  top: 5%;
+}
+
+.section6 {
+  background: url(../../chef/images/team_background.jpg);
+  width: 100%;
+  height: 350px;
+}
+
+.contsec6 {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.pt0 {
+  position: relative;
+  font-size: 15px;
+  color: white;
+}
+
+.reprend {
+  position: relative;
+  height: 70%;
+  top: 5%;
+}
+
+.plocc {
+  font-size: 12px;
+}
+
+.logoo {
+  margin: 10px;
+}
+
+.popo {
+  margin: 10px;
+}
+
+.ppp, .ppp1 {
+  background: red;
+  border-radius: 10px;
+  text-align: center;
+  margin: 10px;
+  border: 1Px white solid;
+}
+
+.ppp1 {
+  width: 90px;
+}
+
+.hh {
+  text-transform: uppercase;
+}
+
+.footer {
+  background: red;
+  width: 100%;
+  height: 80px;
+}
+
+.Cop {
+  color: white;
+  text-align: center;
+  font-size: 16px;
 }
 /*# sourceMappingURL=style.css.map */
